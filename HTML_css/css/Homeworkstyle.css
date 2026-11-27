@@ -3,45 +3,37 @@
     padding: 0px;
 }
 
-
-#div_1_1{
-    width: 10%;
-    height: 10vh;
-    background-color: brown;
-    float: left;
+header{
+    background-color: tomato;
+    width: 100%;
+    height: auto;
 }
 
-#div_1_2{
-    width: 90%;
-    height: 10vh;
-    background-color: blue;  
-    float: right;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-#div_2_1{
-    width: 50%;
-    height: 45vh;
-    background-color: black;  
-    float: left;
+ul{
+    display: flex;
 }
 
-#div_2_2{
-    width: 50%;
-    height: 45vh;
-    background-color: green;  
-    float: right;
+ul li{
+    list-style: none;
+    margin: 10px 20px;
 }
 
-#div_3_1{
-    width: 50%;
-    height: 45vh;
-    background-color: tomato;  
-    float: left;
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
 }
 
-#div_3_2{
-    width: 50%;
-    height: 45vh;
-    background-color: aqua;  
-    float: right;
+ul li a:hover {
+       background-color: white;  
+       color: cyan;
+       padding: 5px;
+       border-radius: 100px;
 }
